@@ -1,13 +1,55 @@
-## Foundry
+# Smart Contract Lottery
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+A decentralized **Lottery Smart Contract** built in **Solidity** using **Foundry**.  
+This project demonstrates how to build, test, and deploy a lottery contract that allows participants to enter by sending ETH and selects a winner based on on-chain logic (e.g., pseudo-random or randomness oracle). :contentReference[oaicite:0]{index=0}
 
-Foundry consists of:
+---
 
-- **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
-- **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
-- **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
-- **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+## 📌 Table of Contents
+
+- [Overview](#overview)  
+- [Features](#features)  
+- [Prerequisites](#prerequisites)  
+- [Getting Started](#getting-started)  
+- [Usage](#usage)  
+  - [Build](#build)  
+  - [Test](#test)  
+  - [Deploy](#deploy)  
+  - [Interact](#interact)  
+- [Project Structure](#project-structure)  
+- [Security Notes](#security-notes)  
+- [Contributing](#contributing)  
+- [License](#license)
+
+---
+
+## 🧠 Overview
+
+This project contains a Solidity smart contract for a lottery system where users can participate by sending ETH. The winner is chosen programmatically after entries are closed. You can run and test this on local forks or public testnets.
+
+---
+
+## 🚀 Features
+
+- Solidity-based lottery logic  
+- Built and tested using **Foundry** — fast Rust-based Ethereum dev toolkit  
+- Scripts for deployment and interaction  
+- Unit tests included  
+- Gas snapshot support  
+
+*(Add more specific features if your contract uses Chainlink VRF, Automation, or other integrations.)* :contentReference[oaicite:1]{index=1}
+
+---
+
+## 🧰 Prerequisites
+
+Make sure you have the following installed:
+
+- **Foundry** — required to build and test  
+  ```bash
+  curl -L https://foundry.paradigm.xyz | bash
+  foundryup
+
 
 ## Documentation
 
